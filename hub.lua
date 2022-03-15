@@ -35,6 +35,7 @@ local Jumppower = Instance.new("TextLabel")
 local jump = Instance.new("TextBox")
 local jump_Roundify_10px = Instance.new("ImageLabel")
 local input_2 = Instance.new("TextBox")
+local UIGradient = Instance.new("UIGradient")
 local MiscTab = Instance.new("Frame")
 local cargui = Instance.new("TextButton")
 local TextButton_Roundify_10px_2 = Instance.new("ImageLabel")
@@ -45,21 +46,25 @@ local TextButton_7 = Instance.new("TextButton")
 local iy = Instance.new("TextButton")
 local TextButton_Roundify_10px_4 = Instance.new("ImageLabel")
 local TextButton_8 = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
 local Close_3 = Instance.new("TextButton")
 local Close_Roundify_10px = Instance.new("ImageLabel")
 local TextButton_9 = Instance.new("TextButton")
+local UIGradient_3 = Instance.new("UIGradient")
 local TextButton_10 = Instance.new("TextButton")
 local TextButton_Roundify_10px_5 = Instance.new("ImageLabel")
 local TextButton_11 = Instance.new("TextButton")
 local LoginFrame = Instance.new("ImageLabel")
-local TextLabel_2 = Instance.new("TextLabel")
-local TextButton_12 = Instance.new("TextButton")
-local TextButton_Roundify_9px_5 = Instance.new("ImageLabel")
-local TextLabel_3 = Instance.new("TextLabel")
 local Password = Instance.new("TextBox")
 local TextBox = Instance.new("TextBox")
 local Status = Instance.new("TextLabel")
-local UIGradient = Instance.new("UIGradient")
+local TextLabel_2 = Instance.new("TextLabel")
+local Button = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Shadow = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
 
 --Properties:
 
@@ -448,11 +453,15 @@ input_2.TextScaled = true
 input_2.TextSize = 14.000
 input_2.TextWrapped = true
 
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(48, 192, 188)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(248, 189, 50))}
+UIGradient.Parent = LocalPlayerTab
+
 MiscTab.Name = "MiscTab"
 MiscTab.Parent = MainFrame
 MiscTab.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
 MiscTab.Position = UDim2.new(0.194000006, 0, 0.0579999983, 0)
 MiscTab.Size = UDim2.new(0, 700, 0, 450)
+MiscTab.Visible = false
 
 cargui.Name = "cargui"
 cargui.Parent = MiscTab
@@ -570,6 +579,9 @@ TextButton_8.TextScaled = true
 TextButton_8.TextSize = 14.000
 TextButton_8.TextWrapped = true
 
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(48, 192, 188)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(248, 189, 50))}
+UIGradient_2.Parent = MiscTab
+
 Close_3.Name = "Close"
 Close_3.Parent = MainFrame
 Close_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -608,6 +620,9 @@ TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_9.TextScaled = true
 TextButton_9.TextSize = 14.000
 TextButton_9.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(48, 192, 188)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(248, 189, 50))}
+UIGradient_3.Parent = MainFrame
 
 TextButton_10.Parent = Server
 TextButton_10.AnchorPoint = Vector2.new(0.5, 0)
@@ -650,72 +665,22 @@ TextButton_11.TextWrapped = true
 
 LoginFrame.Name = "LoginFrame"
 LoginFrame.Parent = Server
-LoginFrame.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+LoginFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
 LoginFrame.BackgroundTransparency = 1.000
-LoginFrame.Position = UDim2.new(0.366327912, 0, 0.0830295533, 0)
-LoginFrame.Size = UDim2.new(0, 371, 0, 533)
+LoginFrame.Position = UDim2.new(0.328282803, 0, 0.170014352, 0)
+LoginFrame.Size = UDim2.new(0, 322, 0, 489)
 LoginFrame.Image = "rbxassetid://3570695787"
-LoginFrame.ImageColor3 = Color3.fromRGB(134, 134, 134)
 LoginFrame.ScaleType = Enum.ScaleType.Slice
 LoginFrame.SliceCenter = Rect.new(100, 100, 100, 100)
-LoginFrame.SliceScale = 0.250
-
-TextLabel_2.Parent = LoginFrame
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.102425873, 0, -0.0150093809, 0)
-TextLabel_2.Size = UDim2.new(0, 294, 0, 121)
-TextLabel_2.Font = Enum.Font.Arcade
-TextLabel_2.Text = "Bully Car Hub"
-TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
-
-TextButton_12.Parent = LoginFrame
-TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_12.BackgroundTransparency = 1.000
-TextButton_12.BorderSizePixel = 0
-TextButton_12.Position = UDim2.new(0.229110509, 0, 0.84427768, 0)
-TextButton_12.Size = UDim2.new(0, 203, 0, 53)
-TextButton_12.Font = Enum.Font.SourceSans
-TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_12.TextSize = 14.000
-
-TextButton_Roundify_9px_5.Name = "TextButton_Roundify_9px"
-TextButton_Roundify_9px_5.Parent = TextButton_12
-TextButton_Roundify_9px_5.Active = true
-TextButton_Roundify_9px_5.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_9px_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_9px_5.BackgroundTransparency = 1.000
-TextButton_Roundify_9px_5.Position = UDim2.new(0.497500181, 0, 0.639999986, 0)
-TextButton_Roundify_9px_5.Selectable = true
-TextButton_Roundify_9px_5.Size = UDim2.new(1.13500011, 0, 1.27999997, 0)
-TextButton_Roundify_9px_5.Image = "rbxassetid://3570695787"
-TextButton_Roundify_9px_5.ImageColor3 = Color3.fromRGB(66, 62, 62)
-TextButton_Roundify_9px_5.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_9px_5.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_9px_5.SliceScale = 0.090
-
-TextLabel_3.Parent = TextButton_12
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.Position = UDim2.new(0.00492610829, 0, 0.150943398, 0)
-TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "Login"
-TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
+LoginFrame.SliceScale = 0.120
 
 Password.Name = "Password"
 Password.Parent = LoginFrame
 Password.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Password.BackgroundTransparency = 1.000
 Password.BorderSizePixel = 0
-Password.Position = UDim2.new(0.210242584, 0, 0.679174483, 0)
-Password.Size = UDim2.new(0, 217, 0, 66)
+Password.Position = UDim2.new(0.132602856, 0, 0.658724606, 0)
+Password.Size = UDim2.new(0, 242, 0, 76)
 Password.ClearTextOnFocus = false
 Password.Font = Enum.Font.SourceSans
 Password.Text = "Enter Password."
@@ -728,8 +693,8 @@ TextBox.Parent = LoginFrame
 TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.BackgroundTransparency = 1.000
 TextBox.BorderSizePixel = 0
-TextBox.Position = UDim2.new(0.210242584, 0, 0.482176363, 0)
-TextBox.Size = UDim2.new(0, 217, 0, 66)
+TextBox.Position = UDim2.new(0.11086373, 0, 0.445366532, 0)
+TextBox.Size = UDim2.new(0, 249, 0, 84)
 TextBox.ClearTextOnFocus = false
 TextBox.Font = Enum.Font.SourceSans
 TextBox.Text = "Enter Name."
@@ -742,7 +707,7 @@ Status.Name = "Status"
 Status.Parent = LoginFrame
 Status.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Status.BackgroundTransparency = 1.000
-Status.Position = UDim2.new(0.231805936, 0, 0.31144464, 0)
+Status.Position = UDim2.new(0.182116494, 0, 0.286904752, 0)
 Status.Size = UDim2.new(0, 200, 0, 50)
 Status.Font = Enum.Font.SourceSans
 Status.Text = " "
@@ -751,20 +716,72 @@ Status.TextScaled = true
 Status.TextSize = 14.000
 Status.TextWrapped = true
 
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(126, 126, 126)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(126, 126, 126))}
-UIGradient.Parent = LoginFrame
+TextLabel_2.Parent = LoginFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0434196629, 0, -0.000694452785, 0)
+TextLabel_2.Size = UDim2.new(0, 294, 0, 121)
+TextLabel_2.Font = Enum.Font.Arcade
+TextLabel_2.Text = "Bully Car Hub"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Button.Name = "Button"
+Button.Parent = LoginFrame
+Button.BackgroundColor3 = Color3.fromRGB(53, 50, 50)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.242236018, 0, 0.837423325, 0)
+Button.Size = UDim2.new(0, 180, 0, 45)
+Button.ZIndex = 2
+Button.Font = Enum.Font.GothamSemibold
+Button.Text = ""
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
+
+UICorner.Parent = Button
+
+Shadow.Name = "Shadow"
+Shadow.Parent = Button
+Shadow.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow.BorderSizePixel = 0
+Shadow.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_2.Parent = Shadow
+
+TextLabel_3.Parent = Button
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_3.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_3.ZIndex = 2
+TextLabel_3.Font = Enum.Font.GothamSemibold
+TextLabel_3.Text = "Login"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(48, 192, 188)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(248, 189, 50))}
+UIGradient_4.Parent = LoginFrame
 
 -- Scripts:
 
-local function HCAFC_fake_script() -- TextButton.LocalScript 
+local function HEDM_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.LocalPlayerTab.Visible = true
 	end)
 end
-coroutine.wrap(HCAFC_fake_script)()
-local function OUATZOI_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(HEDM_fake_script)()
+local function KWZLG_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -774,8 +791,8 @@ local function OUATZOI_fake_script() -- TextButton_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(OUATZOI_fake_script)()
-local function MHVQ_fake_script() -- MainFrame.DraggableScript 
+coroutine.wrap(KWZLG_fake_script)()
+local function WIDCMI_fake_script() -- MainFrame.DraggableScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local UIS = game:GetService('UserInputService')
@@ -813,8 +830,8 @@ local function MHVQ_fake_script() -- MainFrame.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(MHVQ_fake_script)()
-local function AXWBAPY_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(WIDCMI_fake_script)()
+local function NDRFCOK_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -825,16 +842,16 @@ local function AXWBAPY_fake_script() -- TextButton_3.LocalScript
 		
 	end)
 end
-coroutine.wrap(AXWBAPY_fake_script)()
-local function CWQOQYP_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(NDRFCOK_fake_script)()
+local function JRQYSPS_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.LocalPlayerTab.Visible = false
 	end)
 end
-coroutine.wrap(CWQOQYP_fake_script)()
-local function VANU_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(JRQYSPS_fake_script)()
+local function KJNUSBD_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -845,40 +862,40 @@ local function VANU_fake_script() -- TextButton_5.LocalScript
 		
 	end)
 end
-coroutine.wrap(VANU_fake_script)()
-local function PTVZFKJ_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(KJNUSBD_fake_script)()
+local function ABCDF_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()	
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/scripts/main/CarCrushers.lua"))()
 	end)
 end
-coroutine.wrap(PTVZFKJ_fake_script)()
-local function RIPDHS_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(ABCDF_fake_script)()
+local function UDXEPYP_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.MiscTab.Visible = false
 	end)
 end
-coroutine.wrap(RIPDHS_fake_script)()
-local function ALOXZ_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(UDXEPYP_fake_script)()
+local function YPEPJ_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()	
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/maxim207/bcars/main/iy.lua"))()
 	end)
 end
-coroutine.wrap(ALOXZ_fake_script)()
-local function JGBZ_fake_script() -- iy.LocalScript 
+coroutine.wrap(YPEPJ_fake_script)()
+local function LGAWT_fake_script() -- iy.LocalScript 
 	local script = Instance.new('LocalScript', iy)
 
 	script.Parent.MouseButton1Click:Connect(function()	
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/maxim207/bcars/main/iy.lua"))()
 	end)
 end
-coroutine.wrap(JGBZ_fake_script)()
-local function HGDQZG_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(LGAWT_fake_script)()
+local function MKDMKSA_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -886,12 +903,11 @@ local function HGDQZG_fake_script() -- TextButton_9.LocalScript
 		frame:TweenPosition(UDim2.new(-0.355, 0,1.312, 0), "In", "Back")
 		wait(1.2)
 		script.Parent.Parent.Parent.Parent.TextButton.Visible = true
-		wait(1.3)
 		script.Parent.Parent.Parent.Parent.MainFrame.Visible = false
 	end)
 end
-coroutine.wrap(HGDQZG_fake_script)()
-local function OPINLA_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(MKDMKSA_fake_script)()
+local function CFWL_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -901,45 +917,8 @@ local function OPINLA_fake_script() -- TextButton_11.LocalScript
 		script.Parent.Parent.Parent.TextButton.Visible = false
 	end)
 end
-coroutine.wrap(OPINLA_fake_script)()
-local function PPDWGK_fake_script() -- TextButton_12.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_12)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.Password.Text == "msHA" and script.Parent.Parent.TextBox.Text == "Maxim" then	
-			script.Parent.Parent.Status.Text = "User & Password Match"
-			wait(3)
-			script.Parent.Parent.Parent.MainFrame.Visible = true
-			script.Parent.Parent.Parent.LoginFrame:Destroy()
-			
-			
-		else
-			script.Parent.Parent.Status.Text = "Did not find user or password does not match"
-		end
-		
-		
-		
-	end)
-	
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.Password.Text == "Bullycars123" and script.Parent.Parent.TextBox.Text == "Truthless" then	
-			script.Parent.Parent.Status.Text = "User & Password Match"
-			wait(3)
-			script.Parent.Parent.Parent.MainFrame.Visible = true
-			script.Parent.Parent.Parent.LoginFrame:Destroy()
-	
-	
-		else
-			script.Parent.Parent.Status.Text = "Did not find user or password does not match"
-		end
-	
-	
-	
-	end)
-end
-coroutine.wrap(PPDWGK_fake_script)()
-local function WGZT_fake_script() -- LoginFrame.DraggableScript 
+coroutine.wrap(CFWL_fake_script)()
+local function WXQJGJ_fake_script() -- LoginFrame.DraggableScript 
 	local script = Instance.new('LocalScript', LoginFrame)
 
 	local UIS = game:GetService('UserInputService')
@@ -977,4 +956,41 @@ local function WGZT_fake_script() -- LoginFrame.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(WGZT_fake_script)()
+coroutine.wrap(WXQJGJ_fake_script)()
+local function IXDT_fake_script() -- Button.LocalScript 
+	local script = Instance.new('LocalScript', Button)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Password.Text == "msHA" and script.Parent.Parent.TextBox.Text == "Maxim" then	
+			script.Parent.Parent.Status.Text = "User & Password Match"
+			wait(3)
+			script.Parent.Parent.Parent.MainFrame.Visible = true
+			script.Parent.Parent.Parent.LoginFrame:Destroy()
+			
+			
+		else
+			script.Parent.Parent.Status.Text = "Did not find user or password does not match"
+		end
+		
+		
+		
+	end)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Password.Text == "Bullycars123" and script.Parent.Parent.TextBox.Text == "Truthless" then	
+			script.Parent.Parent.Status.Text = "User & Password Match"
+			wait(3)
+			script.Parent.Parent.Parent.MainFrame.Visible = true
+			script.Parent.Parent.Parent.LoginFrame:Destroy()
+	
+	
+		else
+			script.Parent.Parent.Status.Text = "Did not find user or password does not match"
+		end
+	
+	
+	
+	end)
+end
+coroutine.wrap(IXDT_fake_script)()
