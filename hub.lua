@@ -15,56 +15,89 @@ local TextButton = Instance.new("TextButton")
 local FEGuis = Instance.new("TextButton")
 local TextButton_Roundify_9px_2 = Instance.new("ImageLabel")
 local TextButton_2 = Instance.new("TextButton")
-local LocalPlayerTab = Instance.new("Frame")
-local Walkspeed = Instance.new("TextLabel")
-local Input = Instance.new("TextLabel")
-local walk = Instance.new("TextBox")
-local TextBox_Roundify_9px = Instance.new("ImageLabel")
-local input = Instance.new("TextBox")
-local SetWalk = Instance.new("TextButton")
-local TextButton_Roundify_9px_3 = Instance.new("ImageLabel")
-local TextButton_3 = Instance.new("TextButton")
+local MiscTab = Instance.new("Frame")
 local Close = Instance.new("TextButton")
 local TextButton_Roundify_10px = Instance.new("ImageLabel")
-local TextButton_4 = Instance.new("TextButton")
-local SetJump = Instance.new("TextButton")
-local TextButton_Roundify_9px_4 = Instance.new("ImageLabel")
-local TextButton_5 = Instance.new("TextButton")
-local Input_2 = Instance.new("TextLabel")
-local Jumppower = Instance.new("TextLabel")
-local jump = Instance.new("TextBox")
-local jump_Roundify_10px = Instance.new("ImageLabel")
-local input_2 = Instance.new("TextBox")
+local TextButton_3 = Instance.new("TextButton")
 local UIGradient = Instance.new("UIGradient")
-local MiscTab = Instance.new("Frame")
-local cargui = Instance.new("TextButton")
-local TextButton_Roundify_10px_2 = Instance.new("ImageLabel")
-local TextButton_6 = Instance.new("TextButton")
-local Close_2 = Instance.new("TextButton")
-local TextButton_Roundify_10px_3 = Instance.new("ImageLabel")
-local TextButton_7 = Instance.new("TextButton")
-local iy = Instance.new("TextButton")
-local TextButton_Roundify_10px_4 = Instance.new("ImageLabel")
-local TextButton_8 = Instance.new("TextButton")
-local UIGradient_2 = Instance.new("UIGradient")
-local Close_3 = Instance.new("TextButton")
-local Close_Roundify_10px = Instance.new("ImageLabel")
-local TextButton_9 = Instance.new("TextButton")
-local UIGradient_3 = Instance.new("UIGradient")
-local TextButton_10 = Instance.new("TextButton")
-local TextButton_Roundify_10px_5 = Instance.new("ImageLabel")
-local TextButton_11 = Instance.new("TextButton")
-local LoginFrame = Instance.new("ImageLabel")
-local Password = Instance.new("TextBox")
-local TextBox = Instance.new("TextBox")
-local Status = Instance.new("TextLabel")
-local TextLabel_2 = Instance.new("TextLabel")
 local Button = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
 local Shadow = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local Button_2 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Shadow_2 = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
 local TextLabel_3 = Instance.new("TextLabel")
+local Close_2 = Instance.new("TextButton")
+local Close_Roundify_10px = Instance.new("ImageLabel")
+local TextButton_4 = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local LocalPlayerTab = Instance.new("Frame")
+local UIGradient_3 = Instance.new("UIGradient")
+local jump = Instance.new("TextBox")
+local jump_Roundify_10px = Instance.new("ImageLabel")
+local input = Instance.new("TextBox")
+local Jumppower = Instance.new("TextLabel")
+local Input = Instance.new("TextLabel")
+local Close_3 = Instance.new("TextButton")
+local TextButton_Roundify_10px_2 = Instance.new("ImageLabel")
+local TextButton_5 = Instance.new("TextButton")
+local walk = Instance.new("TextBox")
+local TextBox_Roundify_9px = Instance.new("ImageLabel")
+local input_2 = Instance.new("TextBox")
+local Input_2 = Instance.new("TextLabel")
+local Walkspeed = Instance.new("TextLabel")
+local Button_3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Shadow_3 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local Button_4 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Shadow_4 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local Button_5 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Shadow_5 = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local Button_6 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Shadow_6 = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local Player = Instance.new("TextBox")
+local TextBox_Roundify_10px = Instance.new("ImageLabel")
+local input_3 = Instance.new("TextBox")
+local Input_3 = Instance.new("TextLabel")
+local Button_7 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Shadow_7 = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local Button_8 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Shadow_8 = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local Input_4 = Instance.new("TextLabel")
+local LoginFrame = Instance.new("ImageLabel")
+local Password = Instance.new("TextBox")
+local TextBox = Instance.new("TextBox")
+local Status = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local Button_9 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Shadow_9 = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local TextLabel_11 = Instance.new("TextLabel")
 local UIGradient_4 = Instance.new("UIGradient")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_Roundify_10px_3 = Instance.new("ImageLabel")
+local TextButton_7 = Instance.new("TextButton")
 
 --Properties:
 
@@ -79,8 +112,8 @@ MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 MainFrame.BackgroundTransparency = 1.000
 MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
 MainFrame.Size = UDim2.new(0, 913, 0, 516)
-MainFrame.Visible = false
 MainFrame.Image = "rbxassetid://3570695787"
+MainFrame.ImageColor3 = Color3.fromRGB(140, 140, 140)
 MainFrame.ScaleType = Enum.ScaleType.Slice
 MainFrame.SliceCenter = Rect.new(100, 100, 100, 100)
 MainFrame.SliceScale = 0.090
@@ -210,6 +243,175 @@ TextButton_2.TextScaled = true
 TextButton_2.TextSize = 14.000
 TextButton_2.TextWrapped = true
 
+MiscTab.Name = "MiscTab"
+MiscTab.Parent = MainFrame
+MiscTab.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+MiscTab.Position = UDim2.new(0.194000006, 0, 0.0579999983, 0)
+MiscTab.Size = UDim2.new(0, 700, 0, 450)
+
+Close.Name = "Close"
+Close.Parent = MiscTab
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.357142866, 0, 0.837777793, 0)
+Close.Size = UDim2.new(0, 200, 0, 50)
+Close.Font = Enum.Font.SourceSans
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+
+TextButton_Roundify_10px.Name = "TextButton_Roundify_10px"
+TextButton_Roundify_10px.Parent = Close
+TextButton_Roundify_10px.Active = true
+TextButton_Roundify_10px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_10px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_10px.BackgroundTransparency = 1.000
+TextButton_Roundify_10px.Position = UDim2.new(0.540000021, 0, 0.699999988, 0)
+TextButton_Roundify_10px.Selectable = true
+TextButton_Roundify_10px.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_10px.Image = "rbxassetid://3570695787"
+TextButton_Roundify_10px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+TextButton_Roundify_10px.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_10px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_10px.SliceScale = 0.100
+
+TextButton_3.Parent = Close
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(0.100000001, 0, 0.359999985, 0)
+TextButton_3.Size = UDim2.new(0, 180, 0, 34)
+TextButton_3.Font = Enum.Font.SourceSansBold
+TextButton_3.Text = "Close"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(48, 192, 188)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(248, 189, 50))}
+UIGradient.Parent = MiscTab
+
+Button.Name = "Button"
+Button.Parent = MiscTab
+Button.BackgroundColor3 = Color3.fromRGB(62, 61, 61)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.34857142, 0, 0.0911111236, 0)
+Button.Size = UDim2.new(0, 180, 0, 45)
+Button.ZIndex = 2
+Button.Font = Enum.Font.GothamSemibold
+Button.Text = ""
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
+
+UICorner.Parent = Button
+
+Shadow.Name = "Shadow"
+Shadow.Parent = Button
+Shadow.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow.BorderSizePixel = 0
+Shadow.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_2.Parent = Shadow
+
+TextLabel_2.Parent = Button
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_2.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_2.ZIndex = 2
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Infinite Yield"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Button_2.Name = "Button"
+Button_2.Parent = MiscTab
+Button_2.BackgroundColor3 = Color3.fromRGB(62, 61, 61)
+Button_2.BorderSizePixel = 0
+Button_2.Position = UDim2.new(0.0514285862, 0, 0.0911111236, 0)
+Button_2.Size = UDim2.new(0, 180, 0, 45)
+Button_2.ZIndex = 2
+Button_2.Font = Enum.Font.GothamSemibold
+Button_2.Text = ""
+Button_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_2.TextScaled = true
+Button_2.TextSize = 14.000
+Button_2.TextWrapped = true
+
+UICorner_3.Parent = Button_2
+
+Shadow_2.Name = "Shadow"
+Shadow_2.Parent = Button_2
+Shadow_2.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_2.BorderSizePixel = 0
+Shadow_2.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_4.Parent = Shadow_2
+
+TextLabel_3.Parent = Button_2
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_3.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_3.ZIndex = 2
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Car Crushers 2 (Gui)"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+Close_2.Name = "Close"
+Close_2.Parent = MainFrame
+Close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.BackgroundTransparency = 1.000
+Close_2.BorderSizePixel = 0
+Close_2.Position = UDim2.new(0.972617745, 0, 0, 0)
+Close_2.Size = UDim2.new(0, 25, 0, 29)
+Close_2.Font = Enum.Font.SourceSans
+Close_2.Text = " "
+Close_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close_2.TextSize = 14.000
+
+Close_Roundify_10px.Name = "Close_Roundify_10px"
+Close_Roundify_10px.Parent = Close_2
+Close_Roundify_10px.Active = true
+Close_Roundify_10px.AnchorPoint = Vector2.new(0.5, 0.5)
+Close_Roundify_10px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_Roundify_10px.BackgroundTransparency = 1.000
+Close_Roundify_10px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Close_Roundify_10px.Selectable = true
+Close_Roundify_10px.Size = UDim2.new(1, 0, 1, 0)
+Close_Roundify_10px.Image = "rbxassetid://3570695787"
+Close_Roundify_10px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+Close_Roundify_10px.ScaleType = Enum.ScaleType.Slice
+Close_Roundify_10px.SliceCenter = Rect.new(100, 100, 100, 100)
+Close_Roundify_10px.SliceScale = 0.100
+
+TextButton_4.Parent = Close_2
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.Position = UDim2.new(0, 0, 0.0181229208, 0)
+TextButton_4.Size = UDim2.new(0, 27, 0, 26)
+TextButton_4.Font = Enum.Font.SourceSansBold
+TextButton_4.Text = "X"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(48, 192, 188)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(248, 189, 50))}
+UIGradient_2.Parent = MainFrame
+
 LocalPlayerTab.Name = "LocalPlayerTab"
 LocalPlayerTab.Parent = MainFrame
 LocalPlayerTab.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
@@ -217,24 +419,66 @@ LocalPlayerTab.Position = UDim2.new(0.193866372, 0, 0.0581395365, 0)
 LocalPlayerTab.Size = UDim2.new(0, 700, 0, 450)
 LocalPlayerTab.Visible = false
 
-Walkspeed.Name = "Walkspeed"
-Walkspeed.Parent = LocalPlayerTab
-Walkspeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Walkspeed.BackgroundTransparency = 1.000
-Walkspeed.Position = UDim2.new(0.0371428579, 0, 0.0911111236, 0)
-Walkspeed.Size = UDim2.new(0, 149, 0, 46)
-Walkspeed.Font = Enum.Font.SourceSansBold
-Walkspeed.Text = "WalkSpeed"
-Walkspeed.TextColor3 = Color3.fromRGB(0, 0, 0)
-Walkspeed.TextScaled = true
-Walkspeed.TextSize = 14.000
-Walkspeed.TextWrapped = true
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(172, 170, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(172, 170, 152))}
+UIGradient_3.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.50), NumberSequenceKeypoint.new(1.00, 0.50)}
+UIGradient_3.Parent = LocalPlayerTab
+
+jump.Name = "jump"
+jump.Parent = LocalPlayerTab
+jump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jump.BackgroundTransparency = 1.000
+jump.BorderSizePixel = 0
+jump.Position = UDim2.new(0.426999986, 0, 0.301999986, 0)
+jump.Size = UDim2.new(0, 200, 0, 50)
+jump.Font = Enum.Font.SourceSans
+jump.TextColor3 = Color3.fromRGB(0, 0, 0)
+jump.TextSize = 14.000
+
+jump_Roundify_10px.Name = "jump_Roundify_10px"
+jump_Roundify_10px.Parent = jump
+jump_Roundify_10px.Active = true
+jump_Roundify_10px.AnchorPoint = Vector2.new(0.5, 0.5)
+jump_Roundify_10px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jump_Roundify_10px.BackgroundTransparency = 1.000
+jump_Roundify_10px.Position = UDim2.new(0.5, 0, 0.5, 0)
+jump_Roundify_10px.Selectable = true
+jump_Roundify_10px.Size = UDim2.new(1, 0, 1, 0)
+jump_Roundify_10px.Image = "rbxassetid://3570695787"
+jump_Roundify_10px.ScaleType = Enum.ScaleType.Slice
+jump_Roundify_10px.SliceCenter = Rect.new(100, 100, 100, 100)
+jump_Roundify_10px.SliceScale = 0.100
+
+input.Name = "input"
+input.Parent = jump
+input.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+input.BackgroundTransparency = 1.000
+input.Position = UDim2.new(0.08049988, 0, 0, 0)
+input.Size = UDim2.new(0, 171, 0, 50)
+input.Font = Enum.Font.SourceSansBold
+input.Text = ""
+input.TextColor3 = Color3.fromRGB(0, 0, 0)
+input.TextScaled = true
+input.TextSize = 14.000
+input.TextWrapped = true
+
+Jumppower.Name = "Jumppower"
+Jumppower.Parent = LocalPlayerTab
+Jumppower.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Jumppower.BackgroundTransparency = 1.000
+Jumppower.Position = UDim2.new(0.0285713859, 0, 0.302222222, 0)
+Jumppower.Size = UDim2.new(0, 160, 0, 45)
+Jumppower.Font = Enum.Font.SourceSansBold
+Jumppower.Text = "(FE) JumpPower"
+Jumppower.TextColor3 = Color3.fromRGB(0, 0, 0)
+Jumppower.TextScaled = true
+Jumppower.TextSize = 1.000
+Jumppower.TextWrapped = true
 
 Input.Name = "Input"
 Input.Parent = LocalPlayerTab
 Input.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Input.BackgroundTransparency = 1.000
-Input.Position = UDim2.new(0.237142846, 0, 0.0911111236, 0)
+Input.Position = UDim2.new(0.237142846, 0, 0.300000012, 0)
 Input.Size = UDim2.new(0, 149, 0, 46)
 Input.Font = Enum.Font.SourceSansBold
 Input.Text = "Input:"
@@ -242,6 +486,44 @@ Input.TextColor3 = Color3.fromRGB(0, 0, 0)
 Input.TextScaled = true
 Input.TextSize = 14.000
 Input.TextWrapped = true
+
+Close_3.Name = "Close"
+Close_3.Parent = LocalPlayerTab
+Close_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_3.BackgroundTransparency = 1.000
+Close_3.BorderSizePixel = 0
+Close_3.Position = UDim2.new(0.357142866, 0, 0.837777793, 0)
+Close_3.Size = UDim2.new(0, 200, 0, 50)
+Close_3.Font = Enum.Font.SourceSans
+Close_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close_3.TextSize = 14.000
+
+TextButton_Roundify_10px_2.Name = "TextButton_Roundify_10px"
+TextButton_Roundify_10px_2.Parent = Close_3
+TextButton_Roundify_10px_2.Active = true
+TextButton_Roundify_10px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_10px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_10px_2.BackgroundTransparency = 1.000
+TextButton_Roundify_10px_2.Position = UDim2.new(0.540000021, 0, 0.699999988, 0)
+TextButton_Roundify_10px_2.Selectable = true
+TextButton_Roundify_10px_2.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_10px_2.Image = "rbxassetid://3570695787"
+TextButton_Roundify_10px_2.ImageColor3 = Color3.fromRGB(255, 0, 0)
+TextButton_Roundify_10px_2.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_10px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_10px_2.SliceScale = 0.100
+
+TextButton_5.Parent = Close_3
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BackgroundTransparency = 1.000
+TextButton_5.Position = UDim2.new(0.100000001, 0, 0.359999985, 0)
+TextButton_5.Size = UDim2.new(0, 180, 0, 34)
+TextButton_5.Font = Enum.Font.SourceSansBold
+TextButton_5.Text = "Close"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
 
 walk.Name = "walk"
 walk.Parent = LocalPlayerTab
@@ -269,131 +551,23 @@ TextBox_Roundify_9px.ScaleType = Enum.ScaleType.Slice
 TextBox_Roundify_9px.SliceCenter = Rect.new(100, 100, 100, 100)
 TextBox_Roundify_9px.SliceScale = 0.090
 
-input.Name = "input"
-input.Parent = walk
-input.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-input.BackgroundTransparency = 1.000
-input.Size = UDim2.new(0, 200, 0, 50)
-input.Font = Enum.Font.SourceSansBold
-input.Text = ""
-input.TextColor3 = Color3.fromRGB(0, 0, 0)
-input.TextScaled = true
-input.TextSize = 14.000
-input.TextWrapped = true
-
-SetWalk.Name = "SetWalk"
-SetWalk.Parent = LocalPlayerTab
-SetWalk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SetWalk.BorderSizePixel = 0
-SetWalk.Position = UDim2.new(0.725714266, 0, 0.0911111087, 0)
-SetWalk.Size = UDim2.new(0, 169, 0, 46)
-SetWalk.Font = Enum.Font.SourceSans
-SetWalk.TextColor3 = Color3.fromRGB(0, 0, 0)
-SetWalk.TextSize = 14.000
-
-TextButton_Roundify_9px_3.Name = "TextButton_Roundify_9px"
-TextButton_Roundify_9px_3.Parent = SetWalk
-TextButton_Roundify_9px_3.Active = true
-TextButton_Roundify_9px_3.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_9px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_9px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_9px_3.Selectable = true
-TextButton_Roundify_9px_3.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_9px_3.Image = "rbxassetid://3570695787"
-TextButton_Roundify_9px_3.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_9px_3.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_9px_3.SliceScale = 0.090
-
-TextButton_3.Parent = SetWalk
-TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_3.BorderSizePixel = 0
-TextButton_3.Position = UDim2.new(0, 0, 0.054115627, 0)
-TextButton_3.Size = UDim2.new(0, 169, 0, 45)
-TextButton_3.Font = Enum.Font.SourceSansBold
-TextButton_3.Text = "Set Walkspeed"
-TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_3.TextScaled = true
-TextButton_3.TextSize = 14.000
-TextButton_3.TextWrapped = true
-
-Close.Name = "Close"
-Close.Parent = LocalPlayerTab
-Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Close.BackgroundTransparency = 1.000
-Close.BorderSizePixel = 0
-Close.Position = UDim2.new(0.357142866, 0, 0.837777793, 0)
-Close.Size = UDim2.new(0, 200, 0, 50)
-Close.Font = Enum.Font.SourceSans
-Close.TextColor3 = Color3.fromRGB(0, 0, 0)
-Close.TextSize = 14.000
-
-TextButton_Roundify_10px.Name = "TextButton_Roundify_10px"
-TextButton_Roundify_10px.Parent = Close
-TextButton_Roundify_10px.Active = true
-TextButton_Roundify_10px.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_10px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_10px.BackgroundTransparency = 1.000
-TextButton_Roundify_10px.Position = UDim2.new(0.540000021, 0, 0.699999988, 0)
-TextButton_Roundify_10px.Selectable = true
-TextButton_Roundify_10px.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_10px.Image = "rbxassetid://3570695787"
-TextButton_Roundify_10px.ImageColor3 = Color3.fromRGB(255, 0, 0)
-TextButton_Roundify_10px.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_10px.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_10px.SliceScale = 0.100
-
-TextButton_4.Parent = Close
-TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_4.BackgroundTransparency = 1.000
-TextButton_4.Position = UDim2.new(0.100000001, 0, 0.359999985, 0)
-TextButton_4.Size = UDim2.new(0, 180, 0, 34)
-TextButton_4.Font = Enum.Font.SourceSansBold
-TextButton_4.Text = "Close"
-TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_4.TextScaled = true
-TextButton_4.TextSize = 14.000
-TextButton_4.TextWrapped = true
-
-SetJump.Name = "SetJump"
-SetJump.Parent = LocalPlayerTab
-SetJump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SetJump.BorderSizePixel = 0
-SetJump.Position = UDim2.new(0.725714266, 0, 0.302222222, 0)
-SetJump.Size = UDim2.new(0, 169, 0, 46)
-SetJump.Font = Enum.Font.SourceSans
-SetJump.TextColor3 = Color3.fromRGB(0, 0, 0)
-SetJump.TextSize = 14.000
-
-TextButton_Roundify_9px_4.Name = "TextButton_Roundify_9px"
-TextButton_Roundify_9px_4.Parent = SetJump
-TextButton_Roundify_9px_4.Active = true
-TextButton_Roundify_9px_4.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_9px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_9px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_9px_4.Selectable = true
-TextButton_Roundify_9px_4.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_9px_4.Image = "rbxassetid://3570695787"
-TextButton_Roundify_9px_4.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_9px_4.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_9px_4.SliceScale = 0.090
-
-TextButton_5.Parent = SetJump
-TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_5.BorderSizePixel = 0
-TextButton_5.Position = UDim2.new(0, 0, 0.054115627, 0)
-TextButton_5.Size = UDim2.new(0, 169, 0, 45)
-TextButton_5.Font = Enum.Font.SourceSansBold
-TextButton_5.Text = "Set Jumppower"
-TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_5.TextScaled = true
-TextButton_5.TextSize = 14.000
-TextButton_5.TextWrapped = true
+input_2.Name = "input"
+input_2.Parent = walk
+input_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+input_2.BackgroundTransparency = 1.000
+input_2.Size = UDim2.new(0, 200, 0, 50)
+input_2.Font = Enum.Font.SourceSansBold
+input_2.Text = ""
+input_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+input_2.TextScaled = true
+input_2.TextSize = 14.000
+input_2.TextWrapped = true
 
 Input_2.Name = "Input"
 Input_2.Parent = LocalPlayerTab
 Input_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Input_2.BackgroundTransparency = 1.000
-Input_2.Position = UDim2.new(0.237142846, 0, 0.300000012, 0)
+Input_2.Position = UDim2.new(0.237142846, 0, 0.0911111236, 0)
 Input_2.Size = UDim2.new(0, 149, 0, 46)
 Input_2.Font = Enum.Font.SourceSansBold
 Input_2.Text = "Input:"
@@ -402,273 +576,343 @@ Input_2.TextScaled = true
 Input_2.TextSize = 14.000
 Input_2.TextWrapped = true
 
-Jumppower.Name = "Jumppower"
-Jumppower.Parent = LocalPlayerTab
-Jumppower.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Jumppower.BackgroundTransparency = 1.000
-Jumppower.Position = UDim2.new(0.0371428579, 0, 0.300000012, 0)
-Jumppower.Size = UDim2.new(0, 149, 0, 46)
-Jumppower.Font = Enum.Font.SourceSansBold
-Jumppower.Text = "JumpPower"
-Jumppower.TextColor3 = Color3.fromRGB(0, 0, 0)
-Jumppower.TextScaled = true
-Jumppower.TextSize = 14.000
-Jumppower.TextWrapped = true
+Walkspeed.Name = "Walkspeed"
+Walkspeed.Parent = LocalPlayerTab
+Walkspeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Walkspeed.BackgroundTransparency = 1.000
+Walkspeed.Position = UDim2.new(0.0371428579, 0, 0.0911111236, 0)
+Walkspeed.Size = UDim2.new(0, 149, 0, 46)
+Walkspeed.Font = Enum.Font.SourceSansBold
+Walkspeed.Text = "(FE) WalkSpeed"
+Walkspeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+Walkspeed.TextScaled = true
+Walkspeed.TextSize = 14.000
+Walkspeed.TextWrapped = true
 
-jump.Name = "jump"
-jump.Parent = LocalPlayerTab
-jump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-jump.BackgroundTransparency = 1.000
-jump.BorderSizePixel = 0
-jump.Position = UDim2.new(0.426999986, 0, 0.301999986, 0)
-jump.Size = UDim2.new(0, 200, 0, 50)
-jump.Font = Enum.Font.SourceSans
-jump.TextColor3 = Color3.fromRGB(0, 0, 0)
-jump.TextSize = 14.000
+Button_3.Name = "Button"
+Button_3.Parent = LocalPlayerTab
+Button_3.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Button_3.BorderSizePixel = 0
+Button_3.Position = UDim2.new(0.725714266, 0, 0.300000012, 0)
+Button_3.Size = UDim2.new(0, 180, 0, 50)
+Button_3.ZIndex = 2
+Button_3.Font = Enum.Font.GothamSemibold
+Button_3.Text = ""
+Button_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_3.TextScaled = true
+Button_3.TextSize = 14.000
+Button_3.TextWrapped = true
 
-jump_Roundify_10px.Name = "jump_Roundify_10px"
-jump_Roundify_10px.Parent = jump
-jump_Roundify_10px.Active = true
-jump_Roundify_10px.AnchorPoint = Vector2.new(0.5, 0.5)
-jump_Roundify_10px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-jump_Roundify_10px.BackgroundTransparency = 1.000
-jump_Roundify_10px.Position = UDim2.new(0.5, 0, 0.5, 0)
-jump_Roundify_10px.Selectable = true
-jump_Roundify_10px.Size = UDim2.new(1, 0, 1, 0)
-jump_Roundify_10px.Image = "rbxassetid://3570695787"
-jump_Roundify_10px.ScaleType = Enum.ScaleType.Slice
-jump_Roundify_10px.SliceCenter = Rect.new(100, 100, 100, 100)
-jump_Roundify_10px.SliceScale = 0.100
+UICorner_5.CornerRadius = UDim.new(0, 4)
+UICorner_5.Parent = Button_3
 
-input_2.Name = "input"
-input_2.Parent = jump
-input_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-input_2.BackgroundTransparency = 1.000
-input_2.Position = UDim2.new(0.08049988, 0, 0, 0)
-input_2.Size = UDim2.new(0, 171, 0, 50)
-input_2.Font = Enum.Font.SourceSansBold
-input_2.Text = ""
-input_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-input_2.TextScaled = true
-input_2.TextSize = 14.000
-input_2.TextWrapped = true
+Shadow_3.Name = "Shadow"
+Shadow_3.Parent = Button_3
+Shadow_3.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_3.BorderSizePixel = 0
+Shadow_3.Size = UDim2.new(1, 0, 1, 4)
 
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(48, 192, 188)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(248, 189, 50))}
-UIGradient.Parent = LocalPlayerTab
+UICorner_6.CornerRadius = UDim.new(0, 4)
+UICorner_6.Parent = Shadow_3
 
-MiscTab.Name = "MiscTab"
-MiscTab.Parent = MainFrame
-MiscTab.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
-MiscTab.Position = UDim2.new(0.194000006, 0, 0.0579999983, 0)
-MiscTab.Size = UDim2.new(0, 700, 0, 450)
-MiscTab.Visible = false
+TextLabel_4.Parent = Button_3
+TextLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_4.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_4.ZIndex = 2
+TextLabel_4.Font = Enum.Font.GothamSemibold
+TextLabel_4.Text = "Set JumpPower"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
 
-cargui.Name = "cargui"
-cargui.Parent = MiscTab
-cargui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-cargui.BackgroundTransparency = 1.000
-cargui.BorderSizePixel = 0
-cargui.Position = UDim2.new(0.042857144, 0, 0.0977777764, 0)
-cargui.Size = UDim2.new(0, 171, 0, 50)
-cargui.Font = Enum.Font.SourceSans
-cargui.TextColor3 = Color3.fromRGB(0, 0, 0)
-cargui.TextScaled = true
-cargui.TextSize = 14.000
-cargui.TextWrapped = true
+Button_4.Name = "Button"
+Button_4.Parent = LocalPlayerTab
+Button_4.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Button_4.BorderSizePixel = 0
+Button_4.Position = UDim2.new(0.725714266, 0, 0.0911111161, 0)
+Button_4.Size = UDim2.new(0, 180, 0, 50)
+Button_4.ZIndex = 2
+Button_4.Font = Enum.Font.GothamSemibold
+Button_4.Text = ""
+Button_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_4.TextScaled = true
+Button_4.TextSize = 14.000
+Button_4.TextWrapped = true
 
-TextButton_Roundify_10px_2.Name = "TextButton_Roundify_10px"
-TextButton_Roundify_10px_2.Parent = cargui
-TextButton_Roundify_10px_2.Active = true
-TextButton_Roundify_10px_2.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_10px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_10px_2.BackgroundTransparency = 1.000
-TextButton_Roundify_10px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_10px_2.Selectable = true
-TextButton_Roundify_10px_2.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_10px_2.Image = "rbxassetid://3570695787"
-TextButton_Roundify_10px_2.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_10px_2.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_10px_2.SliceScale = 0.100
+UICorner_7.CornerRadius = UDim.new(0, 4)
+UICorner_7.Parent = Button_4
 
-TextButton_6.Parent = cargui
-TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_6.BackgroundTransparency = 1.000
-TextButton_6.Position = UDim2.new(0.0877192989, 0, 0, 0)
-TextButton_6.Size = UDim2.new(0, 143, 0, 50)
-TextButton_6.Font = Enum.Font.SourceSansBold
-TextButton_6.Text = "Car Crusher Gui"
-TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_6.TextScaled = true
-TextButton_6.TextSize = 14.000
-TextButton_6.TextWrapped = true
+Shadow_4.Name = "Shadow"
+Shadow_4.Parent = Button_4
+Shadow_4.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_4.BorderSizePixel = 0
+Shadow_4.Size = UDim2.new(1, 0, 1, 4)
 
-Close_2.Name = "Close"
-Close_2.Parent = MiscTab
-Close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Close_2.BackgroundTransparency = 1.000
-Close_2.BorderSizePixel = 0
-Close_2.Position = UDim2.new(0.357142866, 0, 0.837777793, 0)
-Close_2.Size = UDim2.new(0, 200, 0, 50)
-Close_2.Font = Enum.Font.SourceSans
-Close_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-Close_2.TextSize = 14.000
+UICorner_8.CornerRadius = UDim.new(0, 4)
+UICorner_8.Parent = Shadow_4
 
-TextButton_Roundify_10px_3.Name = "TextButton_Roundify_10px"
-TextButton_Roundify_10px_3.Parent = Close_2
-TextButton_Roundify_10px_3.Active = true
-TextButton_Roundify_10px_3.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_10px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_10px_3.BackgroundTransparency = 1.000
-TextButton_Roundify_10px_3.Position = UDim2.new(0.540000021, 0, 0.699999988, 0)
-TextButton_Roundify_10px_3.Selectable = true
-TextButton_Roundify_10px_3.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_10px_3.Image = "rbxassetid://3570695787"
-TextButton_Roundify_10px_3.ImageColor3 = Color3.fromRGB(255, 0, 0)
-TextButton_Roundify_10px_3.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_10px_3.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_10px_3.SliceScale = 0.100
+TextLabel_5.Parent = Button_4
+TextLabel_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_5.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_5.ZIndex = 2
+TextLabel_5.Font = Enum.Font.GothamSemibold
+TextLabel_5.Text = "Set JumpPower"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
 
-TextButton_7.Parent = Close_2
-TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_7.BackgroundTransparency = 1.000
-TextButton_7.Position = UDim2.new(0.100000001, 0, 0.359999985, 0)
-TextButton_7.Size = UDim2.new(0, 180, 0, 34)
-TextButton_7.Font = Enum.Font.SourceSansBold
-TextButton_7.Text = "Close"
-TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_7.TextScaled = true
-TextButton_7.TextSize = 14.000
-TextButton_7.TextWrapped = true
+Button_5.Name = "Button"
+Button_5.Parent = LocalPlayerTab
+Button_5.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Button_5.BorderSizePixel = 0
+Button_5.Position = UDim2.new(0.0142856836, 0, 0.697777808, 0)
+Button_5.Size = UDim2.new(0, 180, 0, 50)
+Button_5.ZIndex = 2
+Button_5.Font = Enum.Font.GothamSemibold
+Button_5.Text = ""
+Button_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_5.TextScaled = true
+Button_5.TextSize = 14.000
+Button_5.TextWrapped = true
 
-iy.Name = "iy"
-iy.Parent = MiscTab
-iy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-iy.BackgroundTransparency = 1.000
-iy.BorderSizePixel = 0
-iy.Position = UDim2.new(0.317142844, 0, 0.0977777764, 0)
-iy.Size = UDim2.new(0, 200, 0, 50)
-iy.ZIndex = 2
-iy.Font = Enum.Font.SourceSans
-iy.Text = " "
-iy.TextColor3 = Color3.fromRGB(0, 0, 0)
-iy.TextSize = 14.000
+UICorner_9.CornerRadius = UDim.new(0, 4)
+UICorner_9.Parent = Button_5
 
-TextButton_Roundify_10px_4.Name = "TextButton_Roundify_10px"
-TextButton_Roundify_10px_4.Parent = iy
-TextButton_Roundify_10px_4.Active = true
-TextButton_Roundify_10px_4.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_10px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_10px_4.BackgroundTransparency = 1.000
-TextButton_Roundify_10px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_10px_4.Selectable = true
-TextButton_Roundify_10px_4.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_10px_4.Image = "rbxassetid://3570695787"
-TextButton_Roundify_10px_4.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_10px_4.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_10px_4.SliceScale = 0.100
+Shadow_5.Name = "Shadow"
+Shadow_5.Parent = Button_5
+Shadow_5.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_5.BorderSizePixel = 0
+Shadow_5.Size = UDim2.new(1, 0, 1, 4)
 
-TextButton_8.Parent = iy
-TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_8.BackgroundTransparency = 1.000
-TextButton_8.Position = UDim2.new(0.0500000007, 0, 0, 0)
-TextButton_8.Size = UDim2.new(0, 179, 0, 50)
-TextButton_8.Font = Enum.Font.SourceSansBold
-TextButton_8.Text = "Infinite Yield"
-TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_8.TextScaled = true
-TextButton_8.TextSize = 14.000
-TextButton_8.TextWrapped = true
+UICorner_10.CornerRadius = UDim.new(0, 4)
+UICorner_10.Parent = Shadow_5
 
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(48, 192, 188)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(248, 189, 50))}
-UIGradient_2.Parent = MiscTab
+TextLabel_6.Parent = Button_5
+TextLabel_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_6.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_6.ZIndex = 2
+TextLabel_6.Font = Enum.Font.GothamSemibold
+TextLabel_6.Text = "Reset"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
 
-Close_3.Name = "Close"
-Close_3.Parent = MainFrame
-Close_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Close_3.BackgroundTransparency = 1.000
-Close_3.BorderSizePixel = 0
-Close_3.Position = UDim2.new(0.958378971, 0, 0.0174418613, 0)
-Close_3.Size = UDim2.new(0, 27, 0, 27)
-Close_3.Font = Enum.Font.SourceSans
-Close_3.Text = " "
-Close_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-Close_3.TextSize = 14.000
+Button_6.Name = "Button"
+Button_6.Parent = LocalPlayerTab
+Button_6.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Button_6.BorderSizePixel = 0
+Button_6.Position = UDim2.new(0.725714266, 0, 0.522222281, 0)
+Button_6.Size = UDim2.new(0, 180, 0, 50)
+Button_6.ZIndex = 2
+Button_6.Font = Enum.Font.GothamSemibold
+Button_6.Text = ""
+Button_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_6.TextScaled = true
+Button_6.TextSize = 14.000
+Button_6.TextWrapped = true
 
-Close_Roundify_10px.Name = "Close_Roundify_10px"
-Close_Roundify_10px.Parent = Close_3
-Close_Roundify_10px.Active = true
-Close_Roundify_10px.AnchorPoint = Vector2.new(0.5, 0.5)
-Close_Roundify_10px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Close_Roundify_10px.BackgroundTransparency = 1.000
-Close_Roundify_10px.Position = UDim2.new(0.5, 0, 0.5, 0)
-Close_Roundify_10px.Selectable = true
-Close_Roundify_10px.Size = UDim2.new(1, 0, 1, 0)
-Close_Roundify_10px.Image = "rbxassetid://3570695787"
-Close_Roundify_10px.ImageColor3 = Color3.fromRGB(255, 0, 0)
-Close_Roundify_10px.ScaleType = Enum.ScaleType.Slice
-Close_Roundify_10px.SliceCenter = Rect.new(100, 100, 100, 100)
-Close_Roundify_10px.SliceScale = 0.100
+UICorner_11.CornerRadius = UDim.new(0, 4)
+UICorner_11.Parent = Button_6
 
-TextButton_9.Parent = Close_3
-TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_9.BackgroundTransparency = 1.000
-TextButton_9.Position = UDim2.new(0, 0, 0.0181229208, 0)
-TextButton_9.Size = UDim2.new(0, 27, 0, 26)
-TextButton_9.Font = Enum.Font.SourceSansBold
-TextButton_9.Text = "X"
-TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_9.TextScaled = true
-TextButton_9.TextSize = 14.000
-TextButton_9.TextWrapped = true
+Shadow_6.Name = "Shadow"
+Shadow_6.Parent = Button_6
+Shadow_6.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_6.BorderSizePixel = 0
+Shadow_6.Size = UDim2.new(1, 0, 1, 4)
 
-UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(48, 192, 188)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(248, 189, 50))}
-UIGradient_3.Parent = MainFrame
+UICorner_12.CornerRadius = UDim.new(0, 4)
+UICorner_12.Parent = Shadow_6
 
-TextButton_10.Parent = Server
-TextButton_10.AnchorPoint = Vector2.new(0.5, 0)
-TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_10.BackgroundTransparency = 1.000
-TextButton_10.BorderSizePixel = 0
-TextButton_10.Position = UDim2.new(0.500777006, 0, 0, 0)
-TextButton_10.Size = UDim2.new(0, 202, 0, 50)
-TextButton_10.Visible = false
-TextButton_10.Font = Enum.Font.SourceSans
-TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_10.TextSize = 14.000
+TextLabel_7.Parent = Button_6
+TextLabel_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.5, 0, 0.540000021, 0)
+TextLabel_7.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_7.ZIndex = 2
+TextLabel_7.Font = Enum.Font.GothamSemibold
+TextLabel_7.Text = "Go"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
 
-TextButton_Roundify_10px_5.Name = "TextButton_Roundify_10px"
-TextButton_Roundify_10px_5.Parent = TextButton_10
-TextButton_Roundify_10px_5.Active = true
-TextButton_Roundify_10px_5.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_10px_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_10px_5.BackgroundTransparency = 1.000
-TextButton_Roundify_10px_5.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_10px_5.Selectable = true
-TextButton_Roundify_10px_5.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_10px_5.Image = "rbxassetid://3570695787"
-TextButton_Roundify_10px_5.ImageColor3 = Color3.fromRGB(95, 95, 95)
-TextButton_Roundify_10px_5.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_10px_5.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_10px_5.SliceScale = 0.100
+Player.Name = "Player"
+Player.Parent = LocalPlayerTab
+Player.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Player.BackgroundTransparency = 1.000
+Player.BorderSizePixel = 0
+Player.Position = UDim2.new(0.425714284, 0, 0.522222221, 0)
+Player.Size = UDim2.new(0, 200, 0, 50)
+Player.Font = Enum.Font.SourceSans
+Player.Text = ""
+Player.TextColor3 = Color3.fromRGB(0, 0, 0)
+Player.TextSize = 14.000
 
-TextButton_11.Parent = TextButton_10
-TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_11.BackgroundTransparency = 1.000
-TextButton_11.Position = UDim2.new(0.0841584131, 0, 0, 0)
-TextButton_11.Size = UDim2.new(0, 171, 0, 50)
-TextButton_11.Font = Enum.Font.SourceSansBold
-TextButton_11.Text = "Open"
-TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_11.TextScaled = true
-TextButton_11.TextSize = 14.000
-TextButton_11.TextWrapped = true
+TextBox_Roundify_10px.Name = "TextBox_Roundify_10px"
+TextBox_Roundify_10px.Parent = Player
+TextBox_Roundify_10px.Active = true
+TextBox_Roundify_10px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox_Roundify_10px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_Roundify_10px.BackgroundTransparency = 1.000
+TextBox_Roundify_10px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextBox_Roundify_10px.Selectable = true
+TextBox_Roundify_10px.Size = UDim2.new(1, 0, 1, 0)
+TextBox_Roundify_10px.Image = "rbxassetid://3570695787"
+TextBox_Roundify_10px.ScaleType = Enum.ScaleType.Slice
+TextBox_Roundify_10px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextBox_Roundify_10px.SliceScale = 0.100
+
+input_3.Name = "input"
+input_3.Parent = Player
+input_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+input_3.BackgroundTransparency = 1.000
+input_3.Position = UDim2.new(0.0850000009, 0, 0, 0)
+input_3.Size = UDim2.new(0, 165, 0, 50)
+input_3.Font = Enum.Font.SourceSansBold
+input_3.Text = " "
+input_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+input_3.TextScaled = true
+input_3.TextSize = 14.000
+input_3.TextWrapped = true
+
+Input_3.Name = "Input"
+Input_3.Parent = LocalPlayerTab
+Input_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Input_3.BackgroundTransparency = 1.000
+Input_3.Position = UDim2.new(0.237142846, 0, 0.526666701, 0)
+Input_3.Size = UDim2.new(0, 149, 0, 46)
+Input_3.Font = Enum.Font.SourceSansBold
+Input_3.Text = "Name:"
+Input_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Input_3.TextScaled = true
+Input_3.TextSize = 14.000
+Input_3.TextWrapped = true
+
+Button_7.Name = "Button"
+Button_7.Parent = LocalPlayerTab
+Button_7.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Button_7.BorderSizePixel = 0
+Button_7.Position = UDim2.new(0.332857102, 0, 0.702222228, 0)
+Button_7.Size = UDim2.new(0, 180, 0, 50)
+Button_7.ZIndex = 2
+Button_7.Font = Enum.Font.GothamSemibold
+Button_7.Text = ""
+Button_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_7.TextScaled = true
+Button_7.TextSize = 14.000
+Button_7.TextWrapped = true
+
+UICorner_13.CornerRadius = UDim.new(0, 4)
+UICorner_13.Parent = Button_7
+
+Shadow_7.Name = "Shadow"
+Shadow_7.Parent = Button_7
+Shadow_7.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_7.BorderSizePixel = 0
+Shadow_7.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_14.CornerRadius = UDim.new(0, 4)
+UICorner_14.Parent = Shadow_7
+
+TextLabel_8.Parent = Button_7
+TextLabel_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_8.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_8.ZIndex = 2
+TextLabel_8.Font = Enum.Font.GothamSemibold
+TextLabel_8.Text = "(CLIENT) Fire"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+Button_8.Name = "Button"
+Button_8.Parent = LocalPlayerTab
+Button_8.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Button_8.BorderSizePixel = 0
+Button_8.Position = UDim2.new(0.667142808, 0, 0.706666648, 0)
+Button_8.Size = UDim2.new(0, 180, 0, 50)
+Button_8.ZIndex = 2
+Button_8.Font = Enum.Font.GothamSemibold
+Button_8.Text = ""
+Button_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_8.TextScaled = true
+Button_8.TextSize = 14.000
+Button_8.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 4)
+UICorner_15.Parent = Button_8
+
+Shadow_8.Name = "Shadow"
+Shadow_8.Parent = Button_8
+Shadow_8.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_8.BorderSizePixel = 0
+Shadow_8.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_16.CornerRadius = UDim.new(0, 4)
+UICorner_16.Parent = Shadow_8
+
+TextLabel_9.Parent = Button_8
+TextLabel_9.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.508333325, 0, 0.5, 0)
+TextLabel_9.Size = UDim2.new(1.01666665, -20, 1, -20)
+TextLabel_9.ZIndex = 2
+TextLabel_9.Font = Enum.Font.GothamSemibold
+TextLabel_9.Text = "(CLIENT) RGB Huaman"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+Input_4.Name = "Input"
+Input_4.Parent = LocalPlayerTab
+Input_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Input_4.BackgroundTransparency = 1.000
+Input_4.Position = UDim2.new(0.0285713859, 0, 0.522222221, 0)
+Input_4.Size = UDim2.new(0, 154, 0, 46)
+Input_4.Font = Enum.Font.SourceSansBold
+Input_4.Text = "(FE) Teleport To"
+Input_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Input_4.TextScaled = true
+Input_4.TextSize = 14.000
+Input_4.TextWrapped = true
 
 LoginFrame.Name = "LoginFrame"
 LoginFrame.Parent = Server
 LoginFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
 LoginFrame.BackgroundTransparency = 1.000
-LoginFrame.Position = UDim2.new(0.328282803, 0, 0.170014352, 0)
+LoginFrame.Position = UDim2.new(0.329836816, 0, 0.148493543, 0)
 LoginFrame.Size = UDim2.new(0, 322, 0, 489)
+LoginFrame.Visible = false
 LoginFrame.Image = "rbxassetid://3570695787"
 LoginFrame.ScaleType = Enum.ScaleType.Slice
 LoginFrame.SliceCenter = Rect.new(100, 100, 100, 100)
@@ -679,10 +923,10 @@ Password.Parent = LoginFrame
 Password.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Password.BackgroundTransparency = 1.000
 Password.BorderSizePixel = 0
-Password.Position = UDim2.new(0.132602856, 0, 0.658724606, 0)
-Password.Size = UDim2.new(0, 242, 0, 76)
+Password.Position = UDim2.new(0.132602856, 0, 0.59532994, 0)
+Password.Size = UDim2.new(0, 242, 0, 70)
 Password.ClearTextOnFocus = false
-Password.Font = Enum.Font.SourceSans
+Password.Font = Enum.Font.SourceSansBold
 Password.Text = "Enter Password."
 Password.TextColor3 = Color3.fromRGB(0, 0, 0)
 Password.TextScaled = true
@@ -693,10 +937,10 @@ TextBox.Parent = LoginFrame
 TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.BackgroundTransparency = 1.000
 TextBox.BorderSizePixel = 0
-TextBox.Position = UDim2.new(0.11086373, 0, 0.445366532, 0)
-TextBox.Size = UDim2.new(0, 249, 0, 84)
+TextBox.Position = UDim2.new(0.11086373, 0, 0.389154226, 0)
+TextBox.Size = UDim2.new(0, 249, 0, 69)
 TextBox.ClearTextOnFocus = false
-TextBox.Font = Enum.Font.SourceSans
+TextBox.Font = Enum.Font.SourceSansBold
 TextBox.Text = "Enter Name."
 TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextBox.TextScaled = true
@@ -707,81 +951,119 @@ Status.Name = "Status"
 Status.Parent = LoginFrame
 Status.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Status.BackgroundTransparency = 1.000
-Status.Position = UDim2.new(0.182116494, 0, 0.286904752, 0)
-Status.Size = UDim2.new(0, 200, 0, 50)
-Status.Font = Enum.Font.SourceSans
+Status.Position = UDim2.new(0.0703151524, 0, 0.285604089, 0)
+Status.Size = UDim2.new(0, 285, 0, 53)
+Status.Font = Enum.Font.SourceSansBold
 Status.Text = " "
 Status.TextColor3 = Color3.fromRGB(0, 0, 0)
 Status.TextScaled = true
 Status.TextSize = 14.000
 Status.TextWrapped = true
 
-TextLabel_2.Parent = LoginFrame
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.0434196629, 0, -0.000694452785, 0)
-TextLabel_2.Size = UDim2.new(0, 294, 0, 121)
-TextLabel_2.Font = Enum.Font.Arcade
-TextLabel_2.Text = "Bully Car Hub"
-TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
+TextLabel_10.Parent = LoginFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.0434196889, 0, -0.000694446499, 0)
+TextLabel_10.Size = UDim2.new(0, 300, 0, 140)
+TextLabel_10.Font = Enum.Font.SourceSansBold
+TextLabel_10.Text = "Bully Car Hub"
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
 
-Button.Name = "Button"
-Button.Parent = LoginFrame
-Button.BackgroundColor3 = Color3.fromRGB(53, 50, 50)
-Button.BorderSizePixel = 0
-Button.Position = UDim2.new(0.242236018, 0, 0.837423325, 0)
-Button.Size = UDim2.new(0, 180, 0, 45)
-Button.ZIndex = 2
-Button.Font = Enum.Font.GothamSemibold
-Button.Text = ""
-Button.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button.TextScaled = true
-Button.TextSize = 14.000
-Button.TextWrapped = true
+Button_9.Name = "Button"
+Button_9.Parent = LoginFrame
+Button_9.BackgroundColor3 = Color3.fromRGB(53, 50, 50)
+Button_9.BorderSizePixel = 0
+Button_9.Position = UDim2.new(0.220496893, 0, 0.819018424, 0)
+Button_9.Size = UDim2.new(0, 180, 0, 45)
+Button_9.ZIndex = 2
+Button_9.Font = Enum.Font.SourceSansBold
+Button_9.Text = ""
+Button_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_9.TextScaled = true
+Button_9.TextSize = 14.000
+Button_9.TextWrapped = true
 
-UICorner.Parent = Button
+UICorner_17.Parent = Button_9
 
-Shadow.Name = "Shadow"
-Shadow.Parent = Button
-Shadow.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
-Shadow.BorderSizePixel = 0
-Shadow.Size = UDim2.new(1, 0, 1, 4)
+Shadow_9.Name = "Shadow"
+Shadow_9.Parent = Button_9
+Shadow_9.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_9.BorderSizePixel = 0
+Shadow_9.Size = UDim2.new(1, 0, 1, 4)
 
-UICorner_2.Parent = Shadow
+UICorner_18.Parent = Shadow_9
 
-TextLabel_3.Parent = Button
-TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_3.Size = UDim2.new(1, -20, 1, -20)
-TextLabel_3.ZIndex = 2
-TextLabel_3.Font = Enum.Font.GothamSemibold
-TextLabel_3.Text = "Login"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
+TextLabel_11.Parent = Button_9
+TextLabel_11.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.5, 0, 0.388888896, 0)
+TextLabel_11.Size = UDim2.new(1, -20, 1.22222221, -20)
+TextLabel_11.ZIndex = 2
+TextLabel_11.Font = Enum.Font.SourceSansBold
+TextLabel_11.Text = "Login"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 40.000
+TextLabel_11.TextWrapped = true
 
 UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(48, 192, 188)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(248, 189, 50))}
 UIGradient_4.Parent = LoginFrame
 
+TextButton_6.Parent = Server
+TextButton_6.AnchorPoint = Vector2.new(0.5, 0)
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.500777006, 0, 0, 0)
+TextButton_6.Size = UDim2.new(0, 202, 0, 50)
+TextButton_6.Visible = false
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+
+TextButton_Roundify_10px_3.Name = "TextButton_Roundify_10px"
+TextButton_Roundify_10px_3.Parent = TextButton_6
+TextButton_Roundify_10px_3.Active = true
+TextButton_Roundify_10px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_10px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_10px_3.BackgroundTransparency = 1.000
+TextButton_Roundify_10px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_10px_3.Selectable = true
+TextButton_Roundify_10px_3.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_10px_3.Image = "rbxassetid://3570695787"
+TextButton_Roundify_10px_3.ImageColor3 = Color3.fromRGB(95, 95, 95)
+TextButton_Roundify_10px_3.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_10px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_10px_3.SliceScale = 0.100
+
+TextButton_7.Parent = TextButton_6
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.BackgroundTransparency = 1.000
+TextButton_7.Position = UDim2.new(0.0841584131, 0, 0, 0)
+TextButton_7.Size = UDim2.new(0, 171, 0, 50)
+TextButton_7.Font = Enum.Font.SourceSansBold
+TextButton_7.Text = "Open"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
 -- Scripts:
 
-local function HEDM_fake_script() -- TextButton.LocalScript 
+local function YCIPLNO_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.LocalPlayerTab.Visible = true
 	end)
 end
-coroutine.wrap(HEDM_fake_script)()
-local function KWZLG_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(YCIPLNO_fake_script)()
+local function OWJH_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -791,8 +1073,8 @@ local function KWZLG_fake_script() -- TextButton_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(KWZLG_fake_script)()
-local function WIDCMI_fake_script() -- MainFrame.DraggableScript 
+coroutine.wrap(OWJH_fake_script)()
+local function EYEKWZD_fake_script() -- MainFrame.DraggableScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local UIS = game:GetService('UserInputService')
@@ -830,73 +1112,33 @@ local function WIDCMI_fake_script() -- MainFrame.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(WIDCMI_fake_script)()
-local function NDRFCOK_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(EYEKWZD_fake_script)()
+local function BYENAI_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		local player = game.Players.LocalPlayer.Character
-		
-		player.Humanoid.WalkSpeed = script.Parent.Parent.Parent.walk.input.Text
-		
-		
-	end)
-end
-coroutine.wrap(NDRFCOK_fake_script)()
-local function JRQYSPS_fake_script() -- TextButton_4.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_4)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Parent.LocalPlayerTab.Visible = false
-	end)
-end
-coroutine.wrap(JRQYSPS_fake_script)()
-local function KJNUSBD_fake_script() -- TextButton_5.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_5)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		local player = game.Players.LocalPlayer.Character
-		
-		player.Humanoid.JumpPower = script.Parent.Parent.Parent.jump.input.Text
-		
-		
-	end)
-end
-coroutine.wrap(KJNUSBD_fake_script)()
-local function ABCDF_fake_script() -- TextButton_6.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_6)
-
-	script.Parent.MouseButton1Click:Connect(function()	
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/scripts/main/CarCrushers.lua"))()
-	end)
-end
-coroutine.wrap(ABCDF_fake_script)()
-local function UDXEPYP_fake_script() -- TextButton_7.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.MiscTab.Visible = false
 	end)
 end
-coroutine.wrap(UDXEPYP_fake_script)()
-local function YPEPJ_fake_script() -- TextButton_8.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_8)
+coroutine.wrap(BYENAI_fake_script)()
+local function IEGZ_fake_script() -- Button.iy 
+	local script = Instance.new('LocalScript', Button)
 
 	script.Parent.MouseButton1Click:Connect(function()	
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/maxim207/bcars/main/iy.lua"))()
 	end)
 end
-coroutine.wrap(YPEPJ_fake_script)()
-local function LGAWT_fake_script() -- iy.LocalScript 
-	local script = Instance.new('LocalScript', iy)
+coroutine.wrap(IEGZ_fake_script)()
+local function EHTNE_fake_script() -- Button_2.cc2 
+	local script = Instance.new('LocalScript', Button_2)
 
 	script.Parent.MouseButton1Click:Connect(function()	
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/maxim207/bcars/main/iy.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/scripts/main/CarCrushers.lua"))()
 	end)
 end
-coroutine.wrap(LGAWT_fake_script)()
-local function MKDMKSA_fake_script() -- TextButton_9.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_9)
+coroutine.wrap(EHTNE_fake_script)()
+local function WRVDDIQ_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local frame = script.Parent.Parent.Parent.Parent.MainFrame
@@ -906,19 +1148,87 @@ local function MKDMKSA_fake_script() -- TextButton_9.LocalScript
 		script.Parent.Parent.Parent.Parent.MainFrame.Visible = false
 	end)
 end
-coroutine.wrap(MKDMKSA_fake_script)()
-local function CFWL_fake_script() -- TextButton_11.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_11)
+coroutine.wrap(WRVDDIQ_fake_script)()
+local function SNTWPGG_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		local frame = script.Parent.Parent.Parent.MainFrame
-		script.Parent.Parent.Parent.MainFrame.Visible = true
-		frame:TweenPosition(UDim2.new(0.5, 0,0.5, 0), "Out", "Back")
-		script.Parent.Parent.Parent.TextButton.Visible = false
+		script.Parent.Parent.Parent.Parent.LocalPlayerTab.Visible = false
 	end)
 end
-coroutine.wrap(CFWL_fake_script)()
-local function WXQJGJ_fake_script() -- LoginFrame.DraggableScript 
+coroutine.wrap(SNTWPGG_fake_script)()
+local function GANXZ_fake_script() -- Button_3.jp 
+	local script = Instance.new('LocalScript', Button_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer.Character
+		player.Humanoid.JumpPower = script.Parent.Parent.jump.input.Text
+	end)
+end
+coroutine.wrap(GANXZ_fake_script)()
+local function NXWUHGG_fake_script() -- Button_4.LocalScript 
+	local script = Instance.new('LocalScript', Button_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer.Character
+		
+		player.Humanoid.WalkSpeed = script.Parent.Parent.walk.input.Text
+		
+		
+	end)
+end
+coroutine.wrap(NXWUHGG_fake_script)()
+local function BURATEM_fake_script() -- Button_5.jp 
+	local script = Instance.new('LocalScript', Button_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer.Character
+		--player.Humanoid.Health = 0
+		player.Head:Destroy()
+	end)
+end
+coroutine.wrap(BURATEM_fake_script)()
+local function LCZVQX_fake_script() -- Button_6.jp 
+	local script = Instance.new('LocalScript', Button_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+		local p2 = script.Parent.Parent.Player.input.Text
+		local pos = p1.CFrame
+	
+		p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
+	
+		wait(5)
+	
+		p1.CFrame = pos
+	end)
+end
+coroutine.wrap(LCZVQX_fake_script)()
+local function LEYVRNS_fake_script() -- Button_7.jp 
+	local script = Instance.new('LocalScript', Button_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local fire = Instance.new("Fire")
+		fire.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+	
+	end)
+end
+coroutine.wrap(LEYVRNS_fake_script)()
+local function WMASMO_fake_script() -- Button_8.jp 
+	local script = Instance.new('LocalScript', Button_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		while true do
+			wait(0.2)
+			game.Players.LocalPlayer.Character.Head.BrickColor = BrickColor.Random()
+		end
+	
+	
+	end)
+end
+coroutine.wrap(WMASMO_fake_script)()
+local function XQBN_fake_script() -- LoginFrame.DraggableScript 
 	local script = Instance.new('LocalScript', LoginFrame)
 
 	local UIS = game:GetService('UserInputService')
@@ -956,41 +1266,73 @@ local function WXQJGJ_fake_script() -- LoginFrame.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(WXQJGJ_fake_script)()
-local function IXDT_fake_script() -- Button.LocalScript 
-	local script = Instance.new('LocalScript', Button)
+coroutine.wrap(XQBN_fake_script)()
+local function OAHCYR_fake_script() -- Button_9.LocalScript 
+	local script = Instance.new('LocalScript', Button_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.Password.Text == "msHA" and script.Parent.Parent.TextBox.Text == "Maxim" then	
+		if script.Parent.Parent.Password.Text == "msHA" and script.Parent.Parent.TextBox.Text == "Maxim" then
 			script.Parent.Parent.Status.Text = "User & Password Match"
-			wait(3)
+			wait(1)
+			script.Parent.Parent.Status.Text = "Connecting to database"
+			wait(0.6)
+			script.Parent.Parent.Status.Text = "Connected"
+			wait(1)
+			script.Parent.Parent.Status.Text = "Cheaking Whitelist"
+			wait(0.5)
+			script.Parent.Parent.Status.Text = "Ready"
+			wait(0.5)
 			script.Parent.Parent.Parent.MainFrame.Visible = true
-			script.Parent.Parent.Parent.LoginFrame:Destroy()
-			
-			
-		else
-			script.Parent.Parent.Status.Text = "Did not find user or password does not match"
+			script.Parent.Parent.Parent.LoginFrame:Destroy()	
 		end
-		
-		
-		
 	end)
 	
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Password.Text == "Bullycars123" and script.Parent.Parent.TextBox.Text == "Truthless" then	
 			script.Parent.Parent.Status.Text = "User & Password Match"
-			wait(3)
+			wait(1)
+			script.Parent.Parent.Status.Text = "Connecting to database"
+			wait(0.6)
+			script.Parent.Parent.Status.Text = "Connected"
+			wait(1)
+			script.Parent.Parent.Status.Text = "Cheaking Whitelist"
+			wait(0.5)
+			script.Parent.Parent.Status.Text = "Ready"
+			wait(0.5)
 			script.Parent.Parent.Parent.MainFrame.Visible = true
 			script.Parent.Parent.Parent.LoginFrame:Destroy()
-	
-	
-		else
-			script.Parent.Parent.Status.Text = "Did not find user or password does not match"
 		end
+	end)
 	
 	
+	script.Parent.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.Password.Text == "123" and script.Parent.Parent.TextBox.Text == "Admin" then	
+				
+			script.Parent.Parent.Status.Text = "User & Password Match"
+			wait(1)
+			script.Parent.Parent.Status.Text = "Connecting to database"
+			wait(0.6)
+			script.Parent.Parent.Status.Text = "Connected"
+			wait(1)
+			script.Parent.Parent.Status.Text = "Cheaking Whitelist"
+			wait(1)
+			script.Parent.Parent.Status.Text = "Your account has ben blacklisted!"
+			wait(4)
+			script.Parent.Parent.Parent.Parent:Destroy()
 	
+		end
 	end)
 end
-coroutine.wrap(IXDT_fake_script)()
+coroutine.wrap(OAHCYR_fake_script)()
+local function ZQQSQU_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local frame = script.Parent.Parent.Parent.MainFrame
+		script.Parent.Parent.Parent.MainFrame.Visible = true
+		frame:TweenPosition(UDim2.new(0.5, 0,0.5, 0), "Out", "Back")
+		script.Parent.Parent.Parent.TextButton.Visible = false
+	end)
+end
+coroutine.wrap(ZQQSQU_fake_script)()
