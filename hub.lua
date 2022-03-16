@@ -1276,7 +1276,7 @@ local function FQSGWP_fake_script() -- Button_9.LocalScript
 	local script = Instance.new('LocalScript', Button_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.Password.Text == "msHA" and script.Parent.Parent.TextBox.Text == "Maxim" then
+		if script.Parent.Parent.Password.Text == "msHA3007" and script.Parent.Parent.TextBox.Text == "Maxim" then
 			script.Parent.Parent.Status.Text = "User & Password Match"
 			wait(1)
 			script.Parent.Parent.Status.Text = "Connecting to database"
