@@ -1056,7 +1056,7 @@ TextButton_7.TextWrapped = true
 
 -- Scripts:
 
-local function ZRJFA_fake_script() -- TextButton.LocalScript 
+local function QQFHXR_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1066,8 +1066,8 @@ local function ZRJFA_fake_script() -- TextButton.LocalScript
 		script.Parent.Parent.Parent.Parent.LocalPlayerTab.Visible = true
 	end)
 end
-coroutine.wrap(ZRJFA_fake_script)()
-local function MNIE_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(QQFHXR_fake_script)()
+local function ZIKC_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1078,8 +1078,8 @@ local function MNIE_fake_script() -- TextButton_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(MNIE_fake_script)()
-local function CJYFD_fake_script() -- MainFrame.DraggableScript 
+coroutine.wrap(ZIKC_fake_script)()
+local function XMGQFH_fake_script() -- MainFrame.DraggableScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local UIS = game:GetService('UserInputService')
@@ -1117,32 +1117,32 @@ local function CJYFD_fake_script() -- MainFrame.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(CJYFD_fake_script)()
-local function BESY_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(XMGQFH_fake_script)()
+local function UQPUUN_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.MiscTab.Visible = false
 	end)
 end
-coroutine.wrap(BESY_fake_script)()
-local function YYTKII_fake_script() -- Button.iy 
+coroutine.wrap(UQPUUN_fake_script)()
+local function ARIVOLT_fake_script() -- Button.iy 
 	local script = Instance.new('LocalScript', Button)
 
 	script.Parent.MouseButton1Click:Connect(function()	
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/maxim207/bcars/main/iy.lua"))()
 	end)
 end
-coroutine.wrap(YYTKII_fake_script)()
-local function MFUXL_fake_script() -- Button_2.cc2 
+coroutine.wrap(ARIVOLT_fake_script)()
+local function AODZ_fake_script() -- Button_2.cc2 
 	local script = Instance.new('LocalScript', Button_2)
 
 	script.Parent.MouseButton1Click:Connect(function()	
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/scripts/main/CarCrushers.lua"))()
 	end)
 end
-coroutine.wrap(MFUXL_fake_script)()
-local function JJBKEHI_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(AODZ_fake_script)()
+local function JUTK_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1153,16 +1153,16 @@ local function JJBKEHI_fake_script() -- TextButton_4.LocalScript
 		script.Parent.Parent.Parent.Parent.MainFrame.Visible = false
 	end)
 end
-coroutine.wrap(JJBKEHI_fake_script)()
-local function SBKEQM_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(JUTK_fake_script)()
+local function QWCLX_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.LocalPlayerTab.Visible = false
 	end)
 end
-coroutine.wrap(SBKEQM_fake_script)()
-local function FLURVO_fake_script() -- Button_3.jp 
+coroutine.wrap(QWCLX_fake_script)()
+local function RGLHUKJ_fake_script() -- Button_3.jp 
 	local script = Instance.new('LocalScript', Button_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1170,8 +1170,8 @@ local function FLURVO_fake_script() -- Button_3.jp
 		player.Humanoid.JumpPower = script.Parent.Parent.jump.input.Text
 	end)
 end
-coroutine.wrap(FLURVO_fake_script)()
-local function MHJZ_fake_script() -- Button_4.LocalScript 
+coroutine.wrap(RGLHUKJ_fake_script)()
+local function FIFV_fake_script() -- Button_4.LocalScript 
 	local script = Instance.new('LocalScript', Button_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1182,8 +1182,8 @@ local function MHJZ_fake_script() -- Button_4.LocalScript
 		
 	end)
 end
-coroutine.wrap(MHJZ_fake_script)()
-local function OEQN_fake_script() -- Button_5.jp 
+coroutine.wrap(FIFV_fake_script)()
+local function YNKGV_fake_script() -- Button_5.jp 
 	local script = Instance.new('LocalScript', Button_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1192,8 +1192,8 @@ local function OEQN_fake_script() -- Button_5.jp
 		player.Head:Destroy()
 	end)
 end
-coroutine.wrap(OEQN_fake_script)()
-local function GJDOFUD_fake_script() -- Button_6.jp 
+coroutine.wrap(YNKGV_fake_script)()
+local function VSBNF_fake_script() -- Button_6.jp 
 	local script = Instance.new('LocalScript', Button_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1209,8 +1209,8 @@ local function GJDOFUD_fake_script() -- Button_6.jp
 		p1.CFrame = pos
 	end)
 end
-coroutine.wrap(GJDOFUD_fake_script)()
-local function WFCG_fake_script() -- Button_7.jp 
+coroutine.wrap(VSBNF_fake_script)()
+local function WSYEL_fake_script() -- Button_7.jp 
 	local script = Instance.new('LocalScript', Button_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1219,8 +1219,8 @@ local function WFCG_fake_script() -- Button_7.jp
 	
 	end)
 end
-coroutine.wrap(WFCG_fake_script)()
-local function FNXZNFJ_fake_script() -- Button_8.jp 
+coroutine.wrap(WSYEL_fake_script)()
+local function CHSY_fake_script() -- Button_8.jp 
 	local script = Instance.new('LocalScript', Button_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1232,8 +1232,8 @@ local function FNXZNFJ_fake_script() -- Button_8.jp
 	
 	end)
 end
-coroutine.wrap(FNXZNFJ_fake_script)()
-local function JTSHGDH_fake_script() -- LoginFrame.DraggableScript 
+coroutine.wrap(CHSY_fake_script)()
+local function IFLW_fake_script() -- LoginFrame.DraggableScript 
 	local script = Instance.new('LocalScript', LoginFrame)
 
 	local UIS = game:GetService('UserInputService')
@@ -1271,12 +1271,12 @@ local function JTSHGDH_fake_script() -- LoginFrame.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(JTSHGDH_fake_script)()
-local function FQSGWP_fake_script() -- Button_9.LocalScript 
+coroutine.wrap(IFLW_fake_script)()
+local function TGTT_fake_script() -- Button_9.LocalScript 
 	local script = Instance.new('LocalScript', Button_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.Password.Text == "msHA3007" and script.Parent.Parent.TextBox.Text == "Maxim" then
+		if script.Parent.Parent.Password.Text == "msHA" and script.Parent.Parent.TextBox.Text == "Maxim" then
 			script.Parent.Parent.Status.Text = "User & Password Match"
 			wait(1)
 			script.Parent.Parent.Status.Text = "Connecting to database"
@@ -1295,6 +1295,23 @@ local function FQSGWP_fake_script() -- Button_9.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Password.Text == "Bullycars123" and script.Parent.Parent.TextBox.Text == "Truthless" then	
+			script.Parent.Parent.Status.Text = "User & Password Match"
+			wait(1)
+			script.Parent.Parent.Status.Text = "Connecting to database"
+			wait(0.6)
+			script.Parent.Parent.Status.Text = "Connected"
+			wait(1)
+			script.Parent.Parent.Status.Text = "Cheaking Whitelist"
+			wait(0.5)
+			script.Parent.Parent.Status.Text = "Ready"
+			wait(0.5)
+			script.Parent.Parent.Parent.MainFrame.Visible = true
+			script.Parent.Parent.Parent.LoginFrame:Destroy()
+		end
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Password.Text == "Caprisun7" and script.Parent.Parent.TextBox.Text == "kirbss" then	
 			script.Parent.Parent.Status.Text = "User & Password Match"
 			wait(1)
 			script.Parent.Parent.Status.Text = "Connecting to database"
@@ -1329,8 +1346,8 @@ local function FQSGWP_fake_script() -- Button_9.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FQSGWP_fake_script)()
-local function JUTSJ_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(TGTT_fake_script)()
+local function DAZBQ_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1340,4 +1357,4 @@ local function JUTSJ_fake_script() -- TextButton_7.LocalScript
 		script.Parent.Parent.Parent.TextButton.Visible = false
 	end)
 end
-coroutine.wrap(JUTSJ_fake_script)()
+coroutine.wrap(DAZBQ_fake_script)()
